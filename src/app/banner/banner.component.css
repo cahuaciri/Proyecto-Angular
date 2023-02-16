@@ -1,0 +1,11 @@
+/*banner*/
+.carousel-inner img {
+    width: 100%;
+    max-height: 35rem;
+}
+.carousel-inner{
+ height: 35rem;
+}
+section#panel{
+    margin: 9rem;
+}

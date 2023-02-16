@@ -1,0 +1,7 @@
+/*modal user-lock*/
+.modal-backdrop {
+    --bs-backdrop-zindex: 100;
+}
+.modal-content#contenido{
+    background-color: aqua;
+}
