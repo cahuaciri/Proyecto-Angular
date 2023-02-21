@@ -13,6 +13,11 @@ import { MiExperienciaComponent } from './secciones/mi-experiencia/mi-experienci
 import { MiEducacionComponent } from './secciones/mi-educacion/mi-educacion.component';
 import { MiHabilidadComponent } from './secciones/mi-habilidad/mi-habilidad.component';
 import { MisProyectosComponent } from './secciones/mis-proyectos/mis-proyectos.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ErrorComponent } from './error/error.component';
+import { IndexComponent } from './index/index.component';
+import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
+import { BarradashboardComponent } from './barradashboard/barradashboard.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +32,11 @@ import { MisProyectosComponent } from './secciones/mis-proyectos/mis-proyectos.c
     MiEducacionComponent,
     MiHabilidadComponent,
     MisProyectosComponent,
+    DashboardComponent,
+    ErrorComponent,
+    IndexComponent,
+    NavbardashboardComponent,
+    BarradashboardComponent,
   ],
   imports: [
     BrowserModule,

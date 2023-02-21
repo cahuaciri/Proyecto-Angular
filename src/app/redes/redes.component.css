@@ -1,14 +1,14 @@
 /*config iconos redes*/
-a.fa-brands.fa-square-facebook.fa-xl,
+i.fa-brands.fa-square-facebook.fa-xl,
 i.fa-brands.fa-square-whatsapp.fa-xl,
-a.fa-brands.fa-linkedin.fa-xl,
-a.fa-brands.fa-square-instagram.fa-xl,
+i.fa-brands.fa-linkedin.fa-xl,
+i.fa-brands.fa-square-instagram.fa-xl,
 i.fa-solid.fa-user-lock.fa-xl,
-a.fa-brands.fa-square-github.fa-xl,
+i.fa-brands.fa-square-github.fa-xl,
 i.fa-solid.fa-user.fa-xl{
     color: rgb(15, 14, 14);
 }
-a.fa-brands.fa-square-facebook.fa-xl:hover{
+i.fa-brands.fa-square-facebook.fa-xl:hover{
     color: blue;
     transition:0.3s ease-in-out;
     transform: scale(1.50);
@@ -18,12 +18,12 @@ i.fa-brands.fa-square-whatsapp.fa-xl:hover{
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-a.fa-brands.fa-linkedin.fa-xl:hover{
+i.fa-brands.fa-linkedin.fa-xl:hover{
     color: rgb(30, 129, 191);
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-a.fa-brands.fa-square-instagram.fa-xl:hover{
+i.fa-brands.fa-square-instagram.fa-xl:hover{
    color: rgb(136, 36, 99);
    transition:0.3s ease-in-out;
    transform: scale(1.50);
@@ -33,7 +33,7 @@ i.fa-solid.fa-user-lock.fa-xl:hover{
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-a.fa-brands.fa-square-github.fa-xl:hover{
+i.fa-brands.fa-square-github.fa-xl:hover{
     color:black;
     transition:0.3s ease-in-out;
     transform: scale(1.50);
