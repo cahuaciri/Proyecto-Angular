@@ -6,9 +6,8 @@ import { IndexComponent } from './index/index.component';
 
 
 const routes: Routes = [
-  {path:'index', component: IndexComponent},
+  {path:'', component: IndexComponent},
   {path:'dashboard', component: DashboardComponent},
-  {path:'', redirectTo: '|', pathMatch:'full'},
   {path:'**', component:ErrorComponent},
 ];
 

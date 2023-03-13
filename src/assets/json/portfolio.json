@@ -1,0 +1,88 @@
+{
+    "nombre": "Victor Hugo",
+    "apellido": "Cahuaciri Mallón",
+    "sobre_mi": "Experiencia Profesional: Estudios Primarios y Secundarios terminados. Profesional Agente policía del Neuquén. Full Stack Developer Jr.",
+    "Experiencia":[
+        {
+            "img": "assets/IMG/escudo-policia-neuquen.png",
+            "titulo_puesto": "Agente Policía del Neuquén",
+            "inicio": "Abril 2017",
+            "fin": "Marzo 2021",
+            "descripción_puesto": "Como Agente Policía del Neuquén cumplí los labores en el Area de Seguridad Pública "
+        }
+    ],
+
+    "educación": [
+        {
+            "img": "assets/IMG/CPEM-33.png",
+            "información": "Estudios Primarios realizados en la escuela primaria Tomas Casullo N°166",
+            "nivel": "Primaria",
+            "inicio": "Marzo 2003",
+            "fin": "Diciembre 2009",
+            "certificado": "" 
+        },
+        {
+            "img": "assets/IMG/CPEM-33.png",
+            "información": "Estudios Secundarios realizados en el C.P.E.M N°33",
+            "nivel": "Secundaria",
+            "inicio": "Marzo 2010",
+            "fin": "Diciembre 2015",
+            "certificado": "" 
+        },
+        {
+            "img": "assets/IMG/escudo-policia-neuquen.png",
+            "información": "Estudios realizados en Academia para agentes de la Policia del Neuquén Cabo 1 Belarde",
+            "nivel": "Agente Policía",
+            "inicio": "Abril 2017",
+            "fin": "Diciembre 2017",
+            "certificado": "" 
+        },
+        {
+            "img": "assets/IMG/arg-programa.png",
+            "información": "Programa Nacional para aprender programacion Argentina programa 1° etapa",
+            "nivel": "Se Programar",
+            "inicio": "Julio 2022",
+            "fin": "Septiembre 2022",
+            "certificado": ""
+        },
+        {
+            "img": "assets/IMG/arg-programa.png",
+            "información": "Programa Nacional para aprender programacion Argentina programa 2° etapa",
+            "nivel": "Yo Programo",
+            "inicio": "Noviembre 2022",
+            "fin": "Mayo 2023",
+            "certificado": ""
+        }
+    ],
+    "habilidades": [
+        {
+            "nombre": "HTML",
+            "color": "",
+            "porcentaje": ""
+        },
+        {
+            "nombre": "CSS",
+            "color": "",
+            "porcentaje": ""
+        },
+        {
+            "nombre": "Bootstrap",
+            "color": "",
+            "porcentaje": ""
+        },
+        {
+            "nombre": "Git",
+            "color": "",
+            "porcentaje": ""
+        }
+    ],
+    "proyectos": [
+        {
+            "nombre": "",
+            "fecha": "",
+            "descripción": "",
+            "enlace": ""
+        }
+    ]
+
+}
