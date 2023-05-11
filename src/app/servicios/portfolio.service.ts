@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+//esto es para suscribirse y que reciba respuesta de forma asincrónica
 import { Observable } from 'rxjs';
 //esto es para poder hacer peticiones
 import { HttpClient } from '@angular/common/http';
@@ -7,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class PortfolioService {
+
 //el primer http se llama alias
   constructor(private http:HttpClient) { }
 //Metodo observable que devuelve datos

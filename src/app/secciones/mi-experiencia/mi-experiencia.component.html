@@ -1,9 +1,14 @@
 <section id="mi-experiencia">
     <div class="container text-center">
-       <div class="row">
-          <div class="col mt-5">
-             <h3 style="background-color: aqua;"><strong>Experiencia Laboral</strong></h3>
-             <p>Profesional Agente Policía del Neuquén: trabajé 4 años desde mi instrucción y capacitación hasta que decidí retirarme voluntariamente. En este puesto desempeñé tareas en el aréa de seguridad.</p>
+      <h3 style="background-color: aqua;"><strong>Experiencia Laboral</strong></h3>
+       <div class="row" *ngFor="let experiencia of experiencias">
+         <div class="col-3">
+            <img [src]="experiencia.img" class="rounded-circle w-75 mt-4" alt="yo" title="Datos">
+         </div>
+          <div class="col 9 mt-5">
+            <h4>{{experiencia.titulo_puesto}}</h4>
+             <p><strong>{{experiencia.descripcion_puesto}}</strong></p>
+             <p><strong>Periodo de trabajo: desde {{experiencia.inicio}}, hasta {{experiencia.fin}}.</strong></p>
           </div>
        </div>
     </div>

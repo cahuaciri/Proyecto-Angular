@@ -1,88 +1,98 @@
 {
-    "nombre": "Victor Hugo",
-    "apellido": "Cahuaciri Mallón",
-    "sobre_mi": "Experiencia Profesional: Estudios Primarios y Secundarios terminados. Profesional Agente policía del Neuquén. Full Stack Developer Jr.",
-    "Experiencia":[
-        {
-            "img": "assets/IMG/escudo-policia-neuquen.png",
-            "titulo_puesto": "Agente Policía del Neuquén",
-            "inicio": "Abril 2017",
-            "fin": "Marzo 2021",
-            "descripción_puesto": "Como Agente Policía del Neuquén cumplí los labores en el Area de Seguridad Pública "
-        }
-    ],
-
-    "educación": [
-        {
-            "img": "assets/IMG/CPEM-33.png",
-            "información": "Estudios Primarios realizados en la escuela primaria Tomas Casullo N°166",
-            "nivel": "Primaria",
-            "inicio": "Marzo 2003",
-            "fin": "Diciembre 2009",
-            "certificado": "" 
-        },
-        {
-            "img": "assets/IMG/CPEM-33.png",
-            "información": "Estudios Secundarios realizados en el C.P.E.M N°33",
-            "nivel": "Secundaria",
-            "inicio": "Marzo 2010",
-            "fin": "Diciembre 2015",
-            "certificado": "" 
-        },
-        {
-            "img": "assets/IMG/escudo-policia-neuquen.png",
-            "información": "Estudios realizados en Academia para agentes de la Policia del Neuquén Cabo 1 Belarde",
-            "nivel": "Agente Policía",
-            "inicio": "Abril 2017",
-            "fin": "Diciembre 2017",
-            "certificado": "" 
-        },
-        {
-            "img": "assets/IMG/arg-programa.png",
-            "información": "Programa Nacional para aprender programacion Argentina programa 1° etapa",
-            "nivel": "Se Programar",
-            "inicio": "Julio 2022",
-            "fin": "Septiembre 2022",
-            "certificado": ""
-        },
-        {
-            "img": "assets/IMG/arg-programa.png",
-            "información": "Programa Nacional para aprender programacion Argentina programa 2° etapa",
-            "nivel": "Yo Programo",
-            "inicio": "Noviembre 2022",
-            "fin": "Mayo 2023",
-            "certificado": ""
-        }
-    ],
-    "habilidades": [
-        {
-            "nombre": "HTML",
-            "color": "",
-            "porcentaje": ""
-        },
-        {
-            "nombre": "CSS",
-            "color": "",
-            "porcentaje": ""
-        },
-        {
-            "nombre": "Bootstrap",
-            "color": "",
-            "porcentaje": ""
-        },
-        {
-            "nombre": "Git",
-            "color": "",
-            "porcentaje": ""
-        }
-    ],
-    "proyectos": [
-        {
-            "nombre": "",
-            "fecha": "",
-            "descripción": "",
-            "enlace": ""
-        }
-    ]
-
+  "nombre": "Victor Hugo",
+  "apellido": "Cahuaciri Mallón",
+  "sobre_mi": "Experiencia Profesional: Estudios Primarios y Secundarios terminados. Profesional Agente policía del Neuquén. Full Stack Developer Jr.",
+  "foto_perfil": "assets/IMG/victor.jpg", 
+  
+  
+  "experiencias":[
+    {
+        "img": "assets/IMG/escudo-policia-neuquen.png",
+        "titulo_puesto": "Agente Policía del Neuquén",
+        "inicio": "Abril 2017",
+        "fin": "Marzo 2021",
+        "descripcion_puesto": "Como Agente Policía del Neuquén cumplí los labores en el Area de Seguridad Pública "
+    }
+  ],
+  "educaciones": [
+    {
+        "id": 0,
+        "img": "assets/IMG/CPEM-33.png",
+        "informacion": "Estudios Primarios realizados en la escuela primaria Tomas Casullo N°166",
+        "nivel": "Primaria",
+        "inicio": "Marzo 2003",
+        "fin": "Diciembre 2009",
+        "certificado": "" 
+    },
+    {
+        "id": 1,
+        "img": "assets/IMG/CPEM-33.png",
+        "informacion": "Estudios Secundarios realizados en el C.P.E.M N°33",
+        "nivel": "Secundaria",
+        "inicio": "Marzo 2010",
+        "fin": "Diciembre 2015",
+        "certificado": "" 
+    },
+    {
+        "id": 2,
+        "img": "assets/IMG/escudo-policia-neuquen.png",
+        "informacion": "Estudios realizados en Academia para agentes de la Policia del Neuquén Cabo 1 Belarde",
+        "nivel": "Agente Policía",
+        "inicio": "Abril 2017",
+        "fin": "Diciembre 2017",
+        "certificado": "" 
+    },
+    {
+        "id": 3,
+        "img": "assets/IMG/arg-programa.png",
+        "informacion": "Programa Nacional para aprender programacion Argentina programa 1° etapa",
+        "nivel": "Se Programar",
+        "inicio": "Julio 2022",
+        "fin": "Septiembre 2022",
+        "certificado": ""
+    },
+    {
+        "id": 4,
+        "img": "assets/IMG/arg-programa.png",
+        "informacion": "Programa Nacional para aprender programacion Argentina programa 2° etapa",
+        "nivel": "Yo Programo",
+        "inicio": "Noviembre 2022",
+        "fin": "Mayo 2023",
+        "certificado": ""
+    }
+  ],
+  "habilidades": [
+    {
+        "id": 0,
+        "nombre": "HTML",
+        "color": "bg-primary",
+        "porcentaje": "75"
+    },
+    {
+        "id": 1,
+        "nombre": "CSS",
+        "color": "bg-success",
+        "porcentaje": "80"
+    },
+    {
+        "id": 2,
+        "nombre": "Bootstrap",
+        "color": "bg-info",
+        "porcentaje": "75"
+    },
+    {
+        "id": 3,
+        "nombre": "Git",
+        "color": "bg-secondary",
+        "porcentaje": "70"
+    }
+  ],
+  "proyectos": [
+    {
+        "nombre": "Mi Portfolio",
+        "fecha": "Noviembre 2022 hasta Mayo 2023",
+        "descripcion": "proyecto Mi Portfolio con su Frontend y Backend",
+        "enlace": ""
+    }
+  ]
 }

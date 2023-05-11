@@ -1,9 +1,11 @@
 <section id="mis-proyectos">
     <div class="container text-center">
-       <div class="row">
+      <h3 style="background-color: aqua;"><strong>Proyectos Personales</strong></h3>
+       <div class="row" *ngFor="let proyecto of proyectos">
           <div class="col mt-5">
-             <h3 style="background-color: aqua;"><strong>Proyectos Personales</strong></h3>
-             <p>Mis proyectos personales</p>
+             <h3>{{proyecto.nombre}}</h3>
+             <p><strong>{{proyecto.descripcion}}</strong></p>
+             <p><strong>Periodo del proyecto: {{proyecto.fecha}}.</strong></p>
           </div>
        </div>
     </div>

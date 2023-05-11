@@ -3,15 +3,13 @@
     <div class="row">
        <div class="col mt-5">
           <h3 style="background-color: aqua;"><strong>Habilidades</strong></h3>
-          <div class="progress-circle-container">
-             <div class="progress-circle progress-50"><span>HTML</span></div>
-             <p>HTML</p>
-             <div class="progress-circle progress-2"><span>CSS</span></div>
-             <p>CSS</p>
-             <div class="progress-circle progress-3"><span>Bootstrap</span></div>
-             <p>Bootstrap</p>
-             <div class="progress-circle progress-4"><span>Git</span></div>
-             <p>Git</p>
+          <!--Iteracion sobre la variable de instancia y presentacion de datos mediante interpolacion-->
+          <div class="progress-circle-container mb-2" *ngFor="let habilidad of habilidades">
+            <h4>{{habilidad.nombre}}</h4>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+               <div class="progress-bar progress-bar-striped progress-bar-animated" [ngClass]="habilidad.color" [style.width.%]="habilidad.porcentaje">{{habilidad.porcentaje}}% {{habilidad.nombre}} completado</div>
+               <span>{{habilidad.nombre}}</span>
+            </div>
           </div>
        </div>
     </div>
